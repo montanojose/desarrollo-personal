@@ -28,9 +28,9 @@
 
         <div class="about-carousel">
             <div class="carousel-track">
-                <img src="includes/img/escuela-1.png" alt="Imagen de la Escuela Mosconi" class="carousel-img active">
-                <img src="includes/img/escuela-2.png" alt="Instalaciones de la Escuela Mosconi" class="carousel-img">
-                <img src="includes/img/escuela-3.png" alt="Actividades escolares" class="carousel-img">
+                <img src="/desarrollo-personal/escuela-mosconi/includes/img/escuela-1.png" alt="Imagen de la Escuela Mosconi" class="carousel-img active">
+                <img src="/desarrollo-personal/escuela-mosconi/includes/img/escuela-2.png" alt="Instalaciones de la Escuela Mosconi" class="carousel-img">
+                <img src="/desarrollo-personal/escuela-mosconi/includes/img/escuela-3.png" alt="Actividades escolares" class="carousel-img">
             </div>
 
             <button class="carousel-btn carousel-prev" type="button">‹</button>

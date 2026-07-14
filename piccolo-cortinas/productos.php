@@ -13,19 +13,19 @@
         <div class="container">
             <div class="cards-grid">
                 <article class="product-card">
-                    <img src="assets/img/productos/roller.jpg" alt="Roller">
+                    <img src="/desarrollo-personal/piccolo-cortinas/assets/img/portada1.jpg" alt="Roller">
                     <h3>Producto 1</h3>
                     <p>Diseño 1</p>
                 </article>
 
                 <article class="product-card">
-                    <img src="assets/img/productos/blackout.jpg" alt="Blackout">
+                    <img src="/desarrollo-personal/piccolo-cortinas/assets/img/portada2.jpg" alt="Blackout">
                     <h3>Producto 2</h3>
                     <p>Diseño 2</p>
                 </article>
 
                 <article class="product-card">
-                    <img src="assets/img/productos/sunscreen.jpg" alt="Sunscreen">
+                    <img src="/desarrollo-personal/piccolo-cortinas/assets/img/portada3.jpg" alt="Sunscreen">
                     <h3>Producto 3</h3>
                     <p>Diseño 3</p>
                 </article>

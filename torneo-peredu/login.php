@@ -83,7 +83,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
         <div class="login-brand">
             <div class="login-logo">
-                <img src="<?= asset('assets/img/logo.png') ?>" alt="Logo Copa PER.EDU">
+        <img src="<?= asset('assets/img/logo.jpg') ?>" alt="Logo Copa PER.EDU">
             </div>
 
             <div>

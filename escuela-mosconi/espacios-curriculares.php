@@ -44,7 +44,7 @@
         <div class="container perfil-grid">
 
             <div class="perfil-image perfil-image-electricidad reveal reveal-left">
-                <img src="includes/img/electricidad.png" alt="Técnico en Electricidad">
+                <img src="/desarrollo-personal/escuela-mosconi/includes/img/electricidad.png" alt="Técnico en Electricidad">
             </div>
 
             <div class="perfil-content reveal reveal-right reveal-delay-1">
@@ -86,7 +86,7 @@
         <div class="container perfil-grid perfil-grid-reverse">
 
             <div class="perfil-image perfil-image-programacion reveal reveal-right">
-                <img src="includes/img/programacion.png" alt="Técnico en Programación">
+                <img src="/desarrollo-personal/escuela-mosconi/includes/img/programacion.png" alt="Técnico en Programación">
             </div>
 
             <div class="perfil-content reveal reveal-left reveal-delay-1">
@@ -128,7 +128,7 @@
         <div class="container perfil-grid">
 
             <div class="perfil-image perfil-image-ciencias reveal reveal-left">
-                <img src="includes/img/ciencias-naturales.png" alt="Bachiller en Ciencias Naturales">
+                <img src="/desarrollo-personal/escuela-mosconi/includes/img/ciencias-naturales.png" alt="Bachiller en Ciencias Naturales">
             </div>
 
             <div class="perfil-content reveal reveal-right reveal-delay-1">

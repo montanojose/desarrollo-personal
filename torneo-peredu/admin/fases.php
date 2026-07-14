@@ -354,7 +354,7 @@ foreach ($fases as $fase) {
 
         <a href="<?= BASE_URL ?>/admin/index.php" class="admin-brand">
             <div class="admin-brand-logo">
-                <img src="<?= asset('assets/img/logo.png') ?>" alt="Logo Copa PER.EDU">
+            <img src="<?= asset('assets/img/logo.jpg') ?>" alt="Logo Copa PER.EDU">
             </div>
             <div>
                 <strong>PER.EDU</strong>

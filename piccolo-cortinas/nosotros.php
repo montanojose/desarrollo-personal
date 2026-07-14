@@ -21,7 +21,7 @@
 
             <div class="team-card fade-in">
                 <div class="team-image">
-                    <img src="assets/img/nosotros/fundador.jpg" alt="Fundador de Piccolo Cortinas">
+                    <img src="/desarrollo-personal/piccolo-cortinas/assets/img/piccolo cortinas_01.jpg" alt="Fundador de Piccolo Cortinas">
                 </div>
 
                 <div class="team-content">
@@ -42,7 +42,7 @@
 
             <div class="team-card team-card-reverse fade-in">
                 <div class="team-image">
-                    <img src="assets/img/nosotros/hijo.jpg" alt="Representante de Piccolo Cortinas">
+                    <img src="/desarrollo-personal/piccolo-cortinas/assets/img/piccolo cortinas.jpeg" alt="Representante de Piccolo Cortinas">
                 </div>
 
                 <div class="team-content">

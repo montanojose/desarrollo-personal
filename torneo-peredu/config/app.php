@@ -1,7 +1,7 @@
 <?php
 // config/app.php
 
-define('BASE_URL', '/copa-peredu');
+define('BASE_URL', '/desarrollo-personal/torneo-peredu');
 
 function asset($path)
 {

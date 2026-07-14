@@ -107,7 +107,7 @@ ul {
 /* HERO */
 .hero {
     background: linear-gradient(rgba(6, 26, 64, 0.78), rgba(11, 42, 99, 0.78)),
-                url("../assets/img/inicio/hero-mosconi.jpg") center/cover no-repeat;
+        url("/desarrollo-personal/escuela-mosconi/includes/img/escuela-1.png") center/cover no-repeat;
     color: var(--color-white);
     min-height: 72vh;
     display: flex;
@@ -505,7 +505,7 @@ section {
     align-items: center;
     background:
         linear-gradient(135deg, rgba(6, 31, 64, 0.95), rgba(15, 76, 129, 0.88)),
-        url("../img/bg-nosotros.jpg") center/cover no-repeat;
+        url("/desarrollo-personal/escuela-mosconi/includes/img/escuela_vieja.png") center/cover no-repeat;
     color: var(--color-white);
     padding: 90px 0;
 }
@@ -970,7 +970,7 @@ section {
     align-items: center;
     background:
         linear-gradient(135deg, rgba(6, 31, 64, 0.94), rgba(15, 76, 129, 0.86)),
-        url("../img/bg-espacios.jpg") center/cover no-repeat;
+        url("/desarrollo-personal/escuela-mosconi/includes/img/programacion.png") center/cover no-repeat;
     color: var(--color-white);
     padding: 90px 0;
 }

@@ -52,9 +52,9 @@
 
             <div class="inst-carousel reveal reveal-right" data-carousel>
                 <div class="inst-carousel-track">
-                    <img src="includes/img/instalaciones/escuela-1.jpg" alt="Vista de la escuela">
-                    <img src="includes/img/instalaciones/escuela-2.jpg" alt="Entrada de la escuela">
-                    <img src="includes/img/instalaciones/escuela-3.jpg" alt="Espacios exteriores de la escuela">
+                    <img src="/desarrollo-personal/escuela-mosconi/includes/img/escuela-1.png" alt="Vista de la escuela">
+                    <img src="/desarrollo-personal/escuela-mosconi/includes/img/escuela-2.png" alt="Entrada de la escuela">
+                    <img src="/desarrollo-personal/escuela-mosconi/includes/img/escuela-3.png" alt="Espacios exteriores de la escuela">
                 </div>
 
                 <button class="inst-carousel-btn prev" type="button" data-prev>‹</button>
@@ -82,9 +82,9 @@
 
             <div class="inst-carousel reveal reveal-left" data-carousel>
                 <div class="inst-carousel-track">
-                    <img src="includes/img/instalaciones/taller-1.jpg" alt="Taller técnico de la escuela">
-                    <img src="includes/img/instalaciones/taller-2.jpg" alt="Prácticas en taller">
-                    <img src="includes/img/instalaciones/taller-3.jpg" alt="Espacio de trabajo técnico">
+                    <img src="/desarrollo-personal/escuela-mosconi/includes/img/electricidad.png" alt="Taller técnico de la escuela">
+                    <img src="/desarrollo-personal/escuela-mosconi/includes/img/programacion.png" alt="Prácticas en taller">
+                    <img src="/desarrollo-personal/escuela-mosconi/includes/img/escuela-2.png" alt="Espacio de trabajo técnico">
                 </div>
 
                 <button class="inst-carousel-btn prev" type="button" data-prev>‹</button>
@@ -111,9 +111,9 @@
 
             <div class="inst-carousel reveal reveal-right" data-carousel>
                 <div class="inst-carousel-track">
-                    <img src="includes/img/instalaciones/laboratorio-1.jpg" alt="Laboratorio escolar">
-                    <img src="includes/img/instalaciones/laboratorio-2.jpg" alt="Actividades en laboratorio">
-                    <img src="includes/img/instalaciones/laboratorio-3.jpg" alt="Material de laboratorio">
+                    <img src="/desarrollo-personal/escuela-mosconi/includes/img/ciencias-naturales.png" alt="Laboratorio escolar">
+                    <img src="/desarrollo-personal/escuela-mosconi/includes/img/escuela-3.png" alt="Actividades en laboratorio">
+                    <img src="/desarrollo-personal/escuela-mosconi/includes/img/escuela-1.png" alt="Material de laboratorio">
                 </div>
 
                 <button class="inst-carousel-btn prev" type="button" data-prev>‹</button>
@@ -140,9 +140,9 @@
 
             <div class="inst-carousel reveal reveal-left" data-carousel>
                 <div class="inst-carousel-track">
-                    <img src="includes/img/instalaciones/biblioteca-1.jpg" alt="Biblioteca escolar">
-                    <img src="includes/img/instalaciones/biblioteca-2.jpg" alt="Espacio de lectura">
-                    <img src="includes/img/instalaciones/biblioteca-3.jpg" alt="Material bibliográfico">
+                    <img src="/desarrollo-personal/escuela-mosconi/includes/img/escuela-1.png" alt="Biblioteca escolar">
+                    <img src="/desarrollo-personal/escuela-mosconi/includes/img/escuela-2.png" alt="Espacio de lectura">
+                    <img src="/desarrollo-personal/escuela-mosconi/includes/img/escuela-3.png" alt="Material bibliográfico">
                 </div>
 
                 <button class="inst-carousel-btn prev" type="button" data-prev>‹</button>
@@ -170,9 +170,9 @@
 
             <div class="inst-carousel reveal reveal-right" data-carousel>
                 <div class="inst-carousel-track">
-                    <img src="includes/img/instalaciones/aula-1.jpg" alt="Aula de la escuela">
-                    <img src="includes/img/instalaciones/aula-2.jpg" alt="Clase en aula">
-                    <img src="includes/img/instalaciones/aula-3.jpg" alt="Espacio de aprendizaje">
+                    <img src="/desarrollo-personal/escuela-mosconi/includes/img/escuela-3.png" alt="Aula de la escuela">
+                    <img src="/desarrollo-personal/escuela-mosconi/includes/img/escuela-2.png" alt="Clase en aula">
+                    <img src="/desarrollo-personal/escuela-mosconi/includes/img/escuela-1.png" alt="Espacio de aprendizaje">
                 </div>
 
                 <button class="inst-carousel-btn prev" type="button" data-prev>‹</button>

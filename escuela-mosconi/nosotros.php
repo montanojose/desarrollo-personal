@@ -28,7 +28,7 @@
 
             <div class="historia-image-box reveal reveal-left">
                 <div class="historia-placeholder">
-                    <img src="includes/img/escuela_vieja.png" alt="Historia de la Escuela General Enrique Mosconi">
+            <img src="/desarrollo-personal/escuela-mosconi/includes/img/escuela_vieja.png" alt="Historia de la Escuela General Enrique Mosconi">
                 </div>
             </div>
 

@@ -4,7 +4,7 @@
 <title><?php echo isset($pageTitle) ? $pageTitle : "Escuela Mosconi"; ?></title>
 
 <!-- FAVICON / ICONO DE LA PESTAÑA DEL NAVEGADOR -->
-<link rel="icon" type="image/png" href="includes/img/favicon.png?v=<?php echo time(); ?>">
+<link rel="icon" type="image/png" href="/desarrollo-personal/escuela-mosconi/includes/img/favicon.png?v=<?php echo time(); ?>">
 
 <!-- Google Fonts -->
 <link rel="preconnect" href="https://fonts.googleapis.com">

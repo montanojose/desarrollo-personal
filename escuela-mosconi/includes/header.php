@@ -4,7 +4,7 @@
         <!-- LOGO + NOMBRE COMO BOTÓN A INICIO -->
         <a href="index.php" class="brand" aria-label="Ir al inicio">
             <img 
-                src="includes/img/logo_mosconi.jpeg?v=<?php echo time(); ?>" 
+                src="/desarrollo-personal/escuela-mosconi/includes/img/logo_mosconi.jpeg?v=<?php echo time(); ?>" 
                 alt="Logo Escuela Mosconi" 
                 class="brand-logo"
             >

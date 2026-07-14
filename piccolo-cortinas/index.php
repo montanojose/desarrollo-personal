@@ -26,9 +26,9 @@
     <div class="hero-slider">
 
         <div class="slider-track" id="sliderTrack">
-            <img src="assets/img/portada1.jpg">
-            <img src="assets/img/portada2.jpg">
-            <img src="assets/img/portada3.jpg">
+            <img src="/desarrollo-personal/piccolo-cortinas/assets/img/portada1.jpg">
+            <img src="/desarrollo-personal/piccolo-cortinas/assets/img/portada2.jpg">
+            <img src="/desarrollo-personal/piccolo-cortinas/assets/img/portada3.jpg">
         </div>
 
         <!-- PUNTITOS -->
@@ -87,21 +87,21 @@
         <div class="cards-grid">
 
             <article class="product-card">
-                <img src="assets/img/productos/roller.jpg">
+                <img src="/desarrollo-personal/piccolo-cortinas/assets/img/portada1.jpg">
                 <h3>Cortinas Roller</h3>
                 <p>Opción moderna y versátil.</p>
                 <a href="productos.php" class="btn btn-secondary">Ver más</a>
             </article>
 
             <article class="product-card">
-                <img src="assets/img/productos/blackout.jpg">
+                <img src="/desarrollo-personal/piccolo-cortinas/assets/img/portada2.jpg">
                 <h3>Blackout</h3>
                 <p>Máxima privacidad y control de luz.</p>
                 <a href="productos.php" class="btn btn-secondary">Ver más</a>
             </article>
 
             <article class="product-card">
-                <img src="assets/img/productos/sunscreen.jpg">
+                <img src="/desarrollo-personal/piccolo-cortinas/assets/img/portada3.jpg">
                 <h3>Sunscreen</h3>
                 <p>Equilibrio entre luz y protección.</p>
                 <a href="productos.php" class="btn btn-secondary">Ver más</a>

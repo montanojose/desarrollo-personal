@@ -3,7 +3,7 @@
 
         <div class="logo">
             <a href="index.php">
-                <img src="assets/img/piccolo cortinas.jpeg" alt="Piccolo Cortinas">
+                <img src="/desarrollo-personal/piccolo-cortinas/assets/img/piccolo cortinas.jpeg" alt="Piccolo Cortinas">
             </a>
         </div>
 

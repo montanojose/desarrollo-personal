@@ -16,7 +16,7 @@ if (!isset($pageDescription)) {
 <title><?= htmlspecialchars($pageTitle) ?></title>
 <meta name="description" content="<?= htmlspecialchars($pageDescription) ?>">
 
-<link rel="icon" href="<?= asset('assets/img/favicon.png') ?>" type="image/png">
+<link rel="icon" href="<?= asset('assets/img/logo.jpg') ?>" type="image/jpeg">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -24,5 +24,5 @@ if (!isset($pageDescription)) {
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="<?= asset('assets/css/style.css') ?>">
-<link rel="icon" type="image/png" href="<?= asset('assets/img/logo.jpg') ?>?v=1">
-<link rel="shortcut icon" href="<?= asset('assets/img/logo.jpg') ?>?v=1">
+<link rel="icon" type="image/jpeg" href="<?= asset('assets/img/logo.jpg') ?>">
+<link rel="shortcut icon" href="<?= asset('assets/img/logo.jpg') ?>">
