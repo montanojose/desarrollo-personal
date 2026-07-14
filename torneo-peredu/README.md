@@ -1,4 +1,4 @@
-# Torneo PER.EDU
+# Torneo Personal Educativo
 
 Plataforma web desarrollada para administrar la Copa PER.EDU, un torneo de fútbol destinado al personal educativo.
 
