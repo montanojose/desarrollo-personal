@@ -1,0 +1,454 @@
+/* ================================================= */
+/* RESPONSIVE GENERAL - ESCUELA MOSCONI */
+/* Archivo: responsive.css */
+/* ================================================= */
+
+html,
+body {
+    overflow-x: hidden;
+}
+
+/* ================================================= */
+/* TABLET Y NOTEBOOK CHICA */
+/* ================================================= */
+
+@media (max-width: 992px) {
+
+    .container {
+        width: min(92%, 900px);
+    }
+
+    /* HEADER */
+    .header-content {
+        min-height: 78px;
+        flex-direction: row;
+        justify-content: space-between;
+        position: relative;
+    }
+
+    .brand {
+        flex-direction: row;
+        text-align: left;
+        max-width: calc(100% - 60px);
+    }
+
+    .brand-text {
+        align-items: flex-start;
+    }
+
+    .brand-logo {
+        width: 50px;
+        height: 50px;
+        flex-shrink: 0;
+    }
+
+    .brand-text h1 {
+        font-size: 1.1rem;
+    }
+
+    .brand-top {
+        font-size: 0.68rem;
+    }
+
+    .menu-toggle {
+        display: block;
+        flex-shrink: 0;
+    }
+
+    .main-nav {
+        position: absolute;
+        top: 78px;
+        left: 0;
+        width: 100%;
+        background-color: var(--color-primary);
+        padding: 18px;
+        border-radius: 0 0 18px 18px;
+        box-shadow: var(--shadow-card);
+        z-index: 999;
+
+        opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
+        transform: translateY(-12px);
+        transition: var(--transition);
+    }
+
+    .main-nav.active {
+        opacity: 1;
+        visibility: visible;
+        pointer-events: auto;
+        transform: translateY(0);
+    }
+
+    .main-nav .nav-menu {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 8px;
+    }
+
+    .nav-menu a {
+        display: block;
+        width: 100%;
+        text-align: center;
+        padding: 12px 16px;
+    }
+
+    /* INICIO */
+    .quick-links,
+    .news-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .about-with-carousel,
+    .about-stats {
+        grid-template-columns: 1fr;
+    }
+
+    .about-carousel {
+        height: 320px;
+    }
+
+    .stats-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    /* NOSOTROS */
+    .historia-grid {
+        grid-template-columns: 1fr;
+        gap: 38px;
+    }
+
+    .historia-image-box {
+        order: 1;
+    }
+
+    .historia-content {
+        order: 2;
+    }
+
+    .historia-placeholder,
+    .historia-placeholder img {
+        min-height: 360px;
+    }
+
+    .historia-data {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .mision-card,
+    .vision-card {
+        max-width: 100%;
+    }
+
+    .pilares-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* ESPACIOS CURRICULARES */
+    .perfil-grid,
+    .perfil-grid-reverse {
+        grid-template-columns: 1fr;
+        gap: 38px;
+    }
+
+    .perfil-grid-reverse .perfil-image,
+    .perfil-grid-reverse .perfil-content {
+        order: initial;
+    }
+
+    .perfil-image,
+    .perfil-image-placeholder,
+    .perfil-image img {
+        min-height: 350px;
+    }
+
+    /* FOOTER */
+    .footer-content {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .footer-brand {
+        grid-column: 1 / -1;
+    }
+}
+
+/* ================================================= */
+/* CELULAR GRANDE */
+/* ================================================= */
+
+@media (max-width: 768px) {
+
+    section {
+        padding: 60px 0;
+    }
+
+    /* HEADER */
+    .header-content {
+        min-height: 72px;
+    }
+
+    .brand-logo {
+        width: 46px;
+        height: 46px;
+    }
+
+    .brand-text h1 {
+        font-size: 0.95rem;
+        line-height: 1.15;
+    }
+
+    .brand-top {
+        font-size: 0.62rem;
+    }
+
+    .main-nav {
+        top: 72px;
+    }
+
+    /* HERO INICIO */
+    .hero {
+        min-height: auto;
+    }
+
+    .hero-content {
+        padding: 60px 0;
+    }
+
+    .hero h2 {
+        font-size: 2.2rem;
+    }
+
+    .hero-description {
+        font-size: 1rem;
+    }
+
+    /* GRILLAS GENERALES */
+    .quick-links,
+    .news-grid,
+    .footer-content {
+        grid-template-columns: 1fr;
+    }
+
+    /* CARRUSEL */
+    .about-carousel {
+        height: 270px;
+    }
+
+    /* STATS */
+    .stats-grid {
+        grid-template-columns: 1fr;
+    }
+
+    /* HERO NOSOTROS Y ESPACIOS */
+    .nosotros-hero,
+    .espacios-hero {
+        min-height: auto;
+        padding: 70px 0;
+    }
+
+    .nosotros-hero h1,
+    .espacios-hero h1 {
+        font-size: 2.1rem;
+    }
+
+    .nosotros-hero p,
+    .espacios-hero p {
+        font-size: 1rem;
+    }
+
+    /* NOSOTROS */
+    .nosotros-section {
+        padding: 60px 0;
+    }
+
+    .historia-placeholder,
+    .historia-placeholder img {
+        min-height: 300px;
+    }
+
+    .historia-content h2,
+    .mision-card h2,
+    .vision-card h2,
+    .section-header-center h2,
+    .perfil-content h2,
+    .intro-card h2 {
+        font-size: 1.8rem;
+    }
+
+    .historia-data {
+        grid-template-columns: 1fr;
+    }
+
+    .mision-card,
+    .vision-card {
+        padding: 30px 24px;
+        border-left: 6px solid var(--color-primary);
+        border-right: none;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .pilares-grid {
+        grid-template-columns: 1fr;
+    }
+
+    /* Animación en celular: entra desde abajo para que no rompa el ancho */
+    .reveal-right,
+    .reveal-left {
+        transform: translateY(55px);
+    }
+
+    .reveal-scroll.active {
+        transform: translateY(0);
+    }
+
+    /* ESPACIOS CURRICULARES */
+    .espacios-intro {
+        padding: 55px 0 20px;
+    }
+
+    .intro-card {
+        padding: 30px 24px;
+    }
+
+    .perfil-section {
+        padding: 60px 0;
+    }
+
+    .perfil-image,
+    .perfil-image-placeholder,
+    .perfil-image img {
+        min-height: 290px;
+    }
+
+    .perfil-image-placeholder {
+        padding: 24px;
+    }
+
+    .perfil-image-placeholder p {
+        font-size: 1.35rem;
+    }
+
+    .perfil-list {
+        padding: 22px;
+    }
+
+    .perfil-tags {
+        gap: 8px;
+    }
+
+    .perfil-tags span {
+        font-size: 0.82rem;
+    }
+
+    /* FOOTER */
+    .footer-content {
+        gap: 26px;
+    }
+}
+
+/* ================================================= */
+/* CELULAR CHICO */
+/* ================================================= */
+
+@media (max-width: 576px) {
+
+    .container {
+        width: 92%;
+    }
+
+    /* HEADER */
+    .brand {
+        gap: 9px;
+    }
+
+    .brand-logo {
+        width: 42px;
+        height: 42px;
+    }
+
+    .brand-text h1 {
+        font-size: 0.82rem;
+    }
+
+    .brand-top {
+        font-size: 0.58rem;
+    }
+
+    .menu-toggle {
+        width: 38px;
+        height: 38px;
+    }
+
+    .menu-toggle span {
+        width: 24px;
+    }
+
+    /* TEXTOS */
+    .section-tag,
+    .perfil-label {
+        font-size: 0.72rem;
+        padding: 7px 12px;
+    }
+
+    .hero h2,
+    .nosotros-hero h1,
+    .espacios-hero h1 {
+        font-size: 1.8rem;
+    }
+
+    .section-heading h2,
+    .about h2,
+    .historia-content h2,
+    .mision-card h2,
+    .vision-card h2,
+    .section-header-center h2,
+    .perfil-content h2,
+    .intro-card h2 {
+        font-size: 1.55rem;
+    }
+
+    .historia-content p,
+    .mision-card p,
+    .vision-card p,
+    .perfil-content p,
+    .intro-card p,
+    .pilar-card p {
+        font-size: 0.95rem;
+        line-height: 1.7;
+    }
+
+    /* IMÁGENES */
+    .about-carousel {
+        height: 240px;
+    }
+
+    .historia-placeholder,
+    .historia-placeholder img,
+    .perfil-image,
+    .perfil-image-placeholder,
+    .perfil-image img {
+        min-height: 240px;
+        border-radius: 22px;
+    }
+
+    /* TARJETAS */
+    .card,
+    .news-card,
+    .pilar-card,
+    .intro-card,
+    .mision-card,
+    .vision-card,
+    .perfil-list {
+        border-radius: 20px;
+    }
+
+    .perfil-list li {
+        padding-left: 24px;
+        font-size: 0.94rem;
+    }
+
+    .footer-bottom {
+        font-size: 0.82rem;
+    }
+}

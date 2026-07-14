@@ -1,0 +1,43 @@
+:root {
+    /* =========================
+       COLORES BASE
+    ========================= */
+    --color-background: #F7F7F5;
+    --color-surface: #FFFFFF;
+    --color-white: #FFFFFF;
+
+    --color-text-main: #1A1A1A;
+    --color-text-secondary: #6B6B6B;
+    --color-border: #E9E9E7;
+
+    /* =========================
+       COLORES DE MARCA
+    ========================= */
+    --color-primary: #1E3A5F;
+    --color-primary-hover: #162C47;
+
+    --color-blue: #2F9CCB;
+    --color-blue-hover: #1E6F95;
+
+    --color-yellow: #F5E642;
+    --color-new: #FF6F61;
+
+    /* =========================
+       FONDOS ESPECIALES
+    ========================= */
+    --color-hero-bg: #FDFBF4;
+    --color-contact-bg: #DFF2FB;
+
+    /* =========================
+       TIPOGRAFÍA
+    ========================= */
+    --font-heading: 'Poppins', sans-serif;
+    --font-body: 'Open Sans', sans-serif;
+
+    /* =========================
+       MEDIDAS
+    ========================= */
+    --container-width: 1200px;
+    --border-radius: 14px;
+    --transition: 0.3s ease;
+}

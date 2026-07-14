@@ -1,0 +1,73 @@
+:root {
+
+    /* =========================
+       🎨 COLORES PRINCIPALES
+       Cambiá estos para modificar TODO el diseño
+    ========================= */
+
+    /* Azul marino principal (header, footer, base) */
+    --color-primary: #061a40;
+
+    /* Azul secundario (hover, detalles) */
+    --color-secondary: #123b8b;
+
+    /* Azul suave (fondos claros o efectos) */
+    --color-primary-soft: #0b2a63;
+
+    /* Color de acento (detalles, highlights) */
+    --color-accent: #dbe7ff;
+
+
+    /* =========================
+       🎨 COLORES GENERALES
+    ========================= */
+
+    /* Fondo general de la página */
+    --color-bg: #f4f7fb;
+
+    /* Fondo de tarjetas */
+    --color-surface: #ffffff;
+
+    /* Color principal del texto */
+    --color-text: #1b1f2a;
+
+    /* Texto secundario (descripciones) */
+    --color-text-light: #5b6475;
+
+    /* Blanco puro */
+    --color-white: #ffffff;
+
+    /* Bordes */
+    --color-border: #d9e1ee;
+
+
+    /* =========================
+       🔤 TIPOGRAFÍA
+    ========================= */
+
+    --font-main: 'Montserrat', sans-serif;
+
+
+    /* =========================
+       📐 BORDES Y RADIOS
+    ========================= */
+
+    --radius-sm: 10px;
+    --radius-md: 18px;
+    --radius-lg: 24px;
+
+
+    /* =========================
+       🌑 SOMBRAS
+    ========================= */
+
+    --shadow-soft: 0 10px 30px rgba(6, 26, 64, 0.08);
+    --shadow-card: 0 14px 35px rgba(6, 26, 64, 0.10);
+
+
+    /* =========================
+       ⚡ TRANSICIONES
+    ========================= */
+
+    --transition: all 0.3s ease;
+}
